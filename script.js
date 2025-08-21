@@ -18,60 +18,73 @@ const perguntas = [
             }
         ]
     },
+    
     {
-        enunciado: "Com a descoberta desta tecnologia, chamada Inteligência Artificial, uma professora de tecnologia da escola decidiu fazer uma sequência de aulas sobre esta tecnologia. No fim de uma aula ela pede que você escreva um trabalho sobre o uso de IA em sala de aula. Qual atitude você toma?",
+        enunciado: "Sua professora de ciências decidiu abordar como a IA está revolucionando as áreas da medicina. Você foi convidado a escrever um relatório sobre as aplicações da IA na área da saúde. Como você procede?",
         alternativas: [
             {
-                texto: "Utiliza uma ferramenta de busca na internet que utiliza IA para que ela ajude a encontrar informações relevantes para o trabalho e explique numa linguagem que facilite o entendimento.",
-                afirmacao: "Conseguiu utilizar a IA para buscar informações úteis."
+                texto: "Utiliza um assistente de IA para pesquisar artigos e materiais sobre as inovações mais recentes na medicina, utilizando uma linguagem técnica e precisa.",
+                afirmacao: "Conseguiu usar a IA para pesquisar informações avançadas sobre medicina."
             },
             {
-                texto: "Escreve o trabalho com base nas conversas que teve com colegas, algumas pesquisas na internet e conhecimentos próprios sobre o tema.",
-                afirmacao: "Sentiu mais facilidade em utilizar seus próprios recursos para escrever seu trabalho."
+                texto: "Busca informações sobre o tema em livros, artigos acadêmicos e conversa com colegas para aprofundar seu entendimento sobre a IA na medicina.",
+                afirmacao: "Preferiu usar recursos tradicionais e pessoais para desenvolver o relatório."
             }
         ]
     },
     {
-        enunciado: "Após a elaboração do trabalho escrito, a professora realizou um debate entre a turma para entender como foi realizada a pesquisa e escrita. Nessa conversa também foi levantado um ponto muito importante: como a IA impacta o trabalho do futuro. Nesse debate, como você se posiciona?",
+        enunciado: "Durante uma atividade prática em sala, a professora pede para você explorar como a IA pode ajudar na educação personalizada. O que você acha que é mais relevante para discutir sobre isso?",
         alternativas: [
             {
-                texto: "Defende a ideia de que a IA pode criar novas oportunidades de emprego e melhorar habilidades humanas.",
-                afirmacao: "Vem impulsionando a inovação na área de IA e luta para abrir novos caminhos profissionais com IA."
+                texto: "Defende que a IA pode ajudar os professores a criar conteúdos mais específicos para o aprendizado de cada aluno, tornando a educação mais individualizada.",
+                afirmacao: "Acredita que a IA pode melhorar a personalização da educação."
             },
             {
-                texto: "Me preocupo com as pessoas que perderão seus empregos para máquinas e defendem a importância de proteger os trabalhadores.",
-                afirmacao: "Sua preocupação com as pessoas motivou a criar um grupo de estudos entre trabalhadores para discutir meios de utilização de IA de forma ética."
+                texto: "Acredita que a IA não pode substituir a interação humana no ensino e que o papel do professor continua essencial para a aprendizagem.",
+                afirmacao: "Defende que a presença humana no ensino é insubstituível."
             }
         ]
     },
     {
-        enunciado: "Ao final da discussão, você precisou criar uma imagem no computador que representasse o que pensa sobre IA. E agora?",
+        enunciado: "Em uma aula sobre IA e seu impacto no mercado de trabalho, você é desafiado a criar uma apresentação digital explicando os efeitos da automação nas profissões tradicionais. Como você cria sua apresentação?",
         alternativas: [
             {
-                texto: "Criar uma imagem utilizando uma plataforma de design como o Paint.",
-                afirmacao: "Notou também que muitas pessoas não sabem ainda utilizar as ferramentas tradicionais e decidiu compartilhar seus conhecimentos de design utilizando ferramentas de pintura digital para iniciantes."
+                texto: "Utiliza ferramentas como PowerPoint e Google Slides para criar uma apresentação visualmente impactante, destacando os principais pontos sobre automação.",
+                afirmacao: "Criou uma apresentação focada na clareza visual e nos principais tópicos sobre automação."
             },
             {
-                texto: "Criar uma imagem utilizando um gerador de imagem de IA.",
-                afirmacao: "Acelerou o processo de criação de trabalhos utilizando geradores de imagem e agora consegue ensinar pessoas que sentem dificuldades em desenhar manualmente como utilizar também!"
+                texto: "Opta por usar uma IA de geração de slides, que cria automaticamente os tópicos, e depois personaliza a apresentação com suas próprias ideias.",
+                afirmacao: "Usou a IA para agilizar a criação da apresentação e personalizou com ideias próprias."
             }
         ]
     },
     {
-        enunciado: "Você tem um trabalho em grupo de biologia para entregar na semana seguinte, o andamento do trabalho está um pouco atrasado e uma pessoa do seu grupo decidiu fazer com ajuda da IA. O problema é que o trabalho está totalmente igual ao do chat. O que você faz? ",
+        enunciado: "Você é designado a ilustrar como imagina o futuro com IA. Como você representa essa visão em uma imagem digital?",
         alternativas: [
             {
-                texto: "Escrever comandos para o chat é uma forma de contribuir com o trabalho, por isso não é um problema utilizar o texto inteiro.",
-                afirmacao: "Infelizmente passou a utilizar a IA para fazer todas suas tarefas e agora se sente dependente da IA para tudo."
+                texto: "Desenha uma imagem futurista à mão e usa ferramentas de edição digital para aprimorar a arte.",
+                afirmacao: "Optou por um processo manual de criação, utilizando ferramentas digitais para aprimorar a imagem."
             },
             {
-                texto: "O chat pode ser uma tecnologia muito avançada, mas é preciso manter a atenção pois toda máquina erra, por isso revisar o trabalho e contribuir com as perspectivas pessoais é essencial.",
-                afirmacao: "Percebeu que toda IA reproduz orientações baseadas na empresa que programou e muito do que o chat escrevia não refletia o que pensava e por isso sabe que os textos gerados pela IA devem servir como auxílio e não resultado final. "
+                texto: "Usa uma ferramenta de IA para criar uma imagem futurista automaticamente, ajustando a imagem conforme a sua visão do futuro.",
+                afirmacao: "Criou uma imagem futurista rapidamente com o auxílio da IA."
             }
         ]
     },
-];
-
+    {
+        enunciado: "Você está fazendo parte de um projeto de ciências onde o grupo precisa apresentar uma pesquisa sobre a IA em diferentes indústrias. Um dos membros do grupo decidiu utilizar uma IA para gerar todo o conteúdo. O que você acha disso?",
+        alternativas: [
+            {
+                texto: "Acredita que utilizar a IA para gerar o conteúdo do trabalho é uma boa estratégia para ganhar tempo, e que revisar o trabalho depois é o suficiente.",
+                afirmacao: "Achou que o uso da IA para gerar conteúdo foi uma forma eficiente de otimizar o tempo."
+            },
+            {
+                texto: "Percebe que é importante que todos os membros do grupo contribuam pessoalmente para a pesquisa, utilizando a IA como uma ferramenta de apoio, e não como a fonte principal.",
+                afirmacao: "Considera fundamental que todos participem ativamente da pesquisa e usem a IA como suporte."
+            }
+        ]
+    },
+]
 
 let atual = 0;
 let perguntaAtual;
